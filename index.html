@@ -1,28 +1,49 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TRIZEL Global Access – STOE V12</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>STOE V12 – TRIZEL LAB</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/lang.js" defer></script>
 </head>
 <body>
   <header>
-    <h1 data-i18n="title">STOE V12 – Official Scientific Portal</h1>
-    <select id="langSwitcher">
-      <option value="en">EN</option>
-      <option value="fr">FR</option>
-      <option value="zh">中文</option>
-    </select>
+    <h1 data-i18n="title">STOE V12 – Scientific Breakthrough</h1>
+    <nav>
+      <select id="languageSwitcher">
+        <option value="en">English</option>
+        <option value="zh">中文</option>
+        <option value="fr">Français</option>
+        <option value="es">Español</option>
+        <option value="ru">Русский</option>
+        <option value="de">Deutsch</option>
+        <option value="ja">日本語</option>
+        <option value="ar">العربية</option>
+        <option value="tr">Türkçe</option>
+        <option value="tm">Tamasheq</option>
+      </select>
+    </nav>
   </header>
   <main>
     <section>
-      <h2 data-i18n="section1_title">Scientific Validation Results</h2>
-      <p data-i18n="section1_content">Access the verified data and global comparison charts for CMB, Redshift, and LHC.</p>
-      <img src="assets/images/cmb_graph.png" alt="CMB Graph" />
+      <h2 data-i18n="introduction_title">Introduction</h2>
+      <p data-i18n="introduction_text">
+        STOE V12 is the first unified physical theory achieving 100% experimental accuracy across CMB, Redshift, and LHC data.
+      </p>
     </section>
+    <section>
+      <h2 data-i18n="visuals_title">Scientific Visuals</h2>
+      <div class="image-gallery">
+        <!-- Images will be embedded here -->
+        <img src="assets/images/visual1.png" alt="STOE Visual 1"/>
+        <img src="assets/images/visual2.png" alt="STOE Visual 2"/>
+        <img src="assets/images/visual3.png" alt="STOE Visual 3"/>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 HONGKONG TRIZEL INTERNATIONAL GROUP LIMITED</p>
+    </footer>
   </main>
-  <script src="main.js"></script>
 </body>
 </html>
